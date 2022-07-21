@@ -1,0 +1,24 @@
+.field
+    width: 100vw
+    height: 100vh
+    max-width: 100%
+    background-image: url("/assets/img/htg-holz.jpg")
+    display: flex
+    justify-content: center
+    align-items: center
+
+.cardStack
+    position: relative
+    img
+        position: absolute
+        width: 150px
+
+.topCard
+    cursor: pointer
+    transition: all 125ms ease-in-out
+    &:hover
+        transform: scale(1.1) translateY(-10px)
+
+.pickCard 
+    transition: all 125ms ease-in-out
+    transform: scale(1.5) !important
