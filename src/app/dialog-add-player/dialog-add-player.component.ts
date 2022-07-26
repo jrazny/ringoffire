@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 
 export class DialogAddPlayerComponent implements OnInit {
   name: string = '';
+  dialogRef: any;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
 }
