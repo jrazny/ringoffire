@@ -2,17 +2,21 @@
     width: 100vw
     height: 100vh
     max-width: 100%
+    max-height: 100%
     background-image: url("../../assets/img/htg-holz.jpg")
+    background-size: cover
     display: flex
     justify-content: center
-    align-items: center
+    align-items: flex-start
 
 .cardStack
     position: relative
+    
     img
         position: absolute
+        top: 400px
         width: 150px
-
+        
 .topCard
     cursor: pointer
     transition: all 125ms ease-in-out
